@@ -52,3 +52,5 @@ npm run dev
 ```
 
 The app requires a Vercel Blob store and the GitHub environment variables to submit real builds. The actual Android compilation runs in GitHub Actions, not inside Vercel Functions.
+
+*no shit this dumb project took me way to many Time so please star The Repo. btw: i smahed a table while doing this, no shit*
