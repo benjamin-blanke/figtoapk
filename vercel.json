@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "app": {
+      "root": ".",
+      "framework": "nextjs"
+    },
+    "builder": {
+      "root": "builder",
+      "framework": "fastapi",
+      "entrypoint": "app/main.py"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "app"
+      }
+    }
+  ]
+}
